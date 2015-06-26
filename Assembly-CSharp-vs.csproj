@@ -49,10 +49,14 @@
      <Compile Include="Assets\Scripts\CameraScript.cs" />
      <Compile Include="Assets\Scripts\PlayButton.cs" />
      <Compile Include="Assets\Scripts\PlayerControl.cs" />
+     <Compile Include="Assets\_Scripts\CoinRotator.cs" />
      <Compile Include="Assets\_Scripts\ControlCamara.cs" />
      <Compile Include="Assets\_Scripts\DestroyByBoundry.cs" />
      <Compile Include="Assets\_Scripts\DestroyByContact.cs" />
+     <Compile Include="Assets\_Scripts\DestroyLaser.cs" />
      <Compile Include="Assets\_Scripts\GameController.cs" />
+     <Compile Include="Assets\_Scripts\GetCoin.cs" />
+     <Compile Include="Assets\_Scripts\LaserMovement.cs" />
      <Compile Include="Assets\_Scripts\MoveSpace.cs" />
      <Compile Include="Assets\_Scripts\Mover.cs" />
      <Compile Include="Assets\_Scripts\RandomRotator.cs" />
