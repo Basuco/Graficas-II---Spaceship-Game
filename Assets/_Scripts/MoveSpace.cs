@@ -4,9 +4,9 @@ using System.Collections;
 public class MoveSpace : MonoBehaviour
 {
 	public Rigidbody rb;
-	public bool indW;
-	public bool indA;
-	public bool indD;
+	//public bool indW;
+	//public bool indA;
+	//public bool indD;
 	public float speed;
 	public float tilt;
 	
@@ -92,22 +92,10 @@ public class MoveSpace : MonoBehaviour
 		Vector3 movement = new Vector3 (-v, 0.0f, h);
 
 		Vector3 mouseMovement = (Input.mousePosition - (new Vector3(Screen.width, Screen.height, 0) / 2.0f));
-		//rb.AddTorque (mouseMovement * RotationSpeed);
-		//transform.Rotate(new Vector3(0.0f, mouseMovement.x, -mouseMovement.y) * 0.0045f);
-
-
 		rb.rotation = Quaternion.Euler (movement.z * speed * tilt, mouseMovement.x, -mouseMovement.y);
-		//rb.velocity = movement * speed;
 		transform.Translate ((movement*speed)*0.0245f);
 
-		//float roll = Input.GetAxis("Mouse X");
-		//float pitch = Input.GetAxis("Mouse Y");
-		//rb.AddTorque (0.0f, -roll * RotationSpeed, -pitch * RotationSpeed);
 
-		//Vector3 mouseMovement = (Input.mousePosition - (new Vector3(Screen.width, Screen.height, 0) / 2.0f));
-		//rb.AddTorque (mouseMovement * RotationSpeed);
-		//transform.Rotate(new Vector3(0.0f, mouseMovement.x, -mouseMovement.y) * 0.0045f);
-		//transform.Translate(rb.velocity);
 	}
 	
 }

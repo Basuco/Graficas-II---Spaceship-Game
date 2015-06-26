@@ -16,16 +16,12 @@ public class LaserMovement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		Debug.Log (rb.position.y);
 		if (rb.position.y > yMax) {
 			forceDirection = false;
 		}
 		if (rb.position.y < yMin) {
 			forceDirection = true;
 		}
-		//if (rb.position.y > yMax || rb.position.y < yMin) {
-		//	forceDirection = -forceDirection;
-		//}
 	}
 
 	void FixedUpdate(){

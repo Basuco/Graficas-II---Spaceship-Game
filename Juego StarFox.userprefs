@@ -1,15 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\LaserMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\DestroyByContact2.cs">
     <Files>
-      <File FileName="Assets\_Scripts\GameController.cs" Line="23" Column="38" />
-      <File FileName="Assets\Scripts\PlayerControl.cs" Line="1" Column="1" />
-      <File FileName="Assets\_Scripts\MoveSpace.cs" Line="1" Column="1" />
-      <File FileName="Assets\_Scripts\Mover.cs" Line="11" Column="38" />
-      <File FileName="Assets\_Scripts\DestroyByContact.cs" Line="13" Column="3" />
-      <File FileName="Assets\_Scripts\CoinRotator.cs" Line="10" Column="36" />
-      <File FileName="Assets\_Scripts\GetCoin.cs" Line="11" Column="24" />
-      <File FileName="Assets\_Scripts\LaserMovement.cs" Line="19" Column="22" />
+      <File FileName="Assets\_Scripts\MoveSpace.cs" Line="25" Column="3" />
+      <File FileName="Assets\_Scripts\Mover.cs" Line="1" Column="1" />
+      <File FileName="Assets\_Scripts\Mover2.cs" Line="1" Column="1" />
+      <File FileName="Assets\_Scripts\TurrentFollow.cs" Line="1" Column="1" />
+      <File FileName="Assets\_Scripts\GetCoin.cs" Line="1" Column="1" />
+      <File FileName="Assets\_Scripts\DestroyByContact.cs" Line="22" Column="1" />
+      <File FileName="Assets\DestroyByContact2.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
