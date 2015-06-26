@@ -29,7 +29,6 @@ public class TurrentFollow : MonoBehaviour {
 		if (other.tag == "Nave1") {
 			Quaternion rotate = Quaternion.LookRotation (target.position - rb.transform.position);
 			rb.transform.rotation = Quaternion.Slerp (rb.transform.rotation, rotate, Time.deltaTime * damp);
-			nextFire = Time.time + fireRate;
 
 			if (timer > 3.0f){
 				Instantiate (shot, ShotSpam.position, ShotSpam.rotation);
